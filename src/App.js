@@ -1,10 +1,10 @@
 import React from 'react'
-import ComponentA from './ComponentA.js'
+import TimerOne from './TImers/TimerOne.js'
 
 class App extends React.Component{
     render(){
         return (
-            <ComponentA />
+            <TimerOne />
         )
     }
 }

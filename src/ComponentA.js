@@ -1,6 +1,4 @@
 import React from "react";
-// import ComponentB from "./ComponentB.js";
-// import ComponentC from "./ComponentC.js";
 
 class ComponentA extends React.Component {
   constructor() {
@@ -39,7 +37,6 @@ class ComponentA extends React.Component {
             return (
               <>
                 <li>{d.username}</li>
-                <li>{d.address.city}</li>
               </>
             );
           })}
